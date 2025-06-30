@@ -1,0 +1,22 @@
+{
+  "name": "@plait-board/react-text",
+  "version": "0.0.4",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "private": false,
+  "dependencies": {
+    "slate": "^0.101.5",
+    "slate-history": "^0.100.0",
+    "slate-react": "^0.105.0",
+    "@plait/text-plugins": "^0.77.3",
+    "@plait/common": "^0.77.3",
+    "is-hotkey": "^0.2.0"
+  },
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js",
+      "types": "./index.d.ts"
+    }
+  }
+}
